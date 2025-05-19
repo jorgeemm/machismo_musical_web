@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n,.</span></a>
+ <span class="menu-text">Machismo musical</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -196,6 +196,34 @@ ul.task-list li input[type="checkbox"] {
 
 <p><strong>TOCADISCOS KEKO</strong></p>
 <p><strong>METODOLOGÍA</strong></p>
+<p><br><br></p>
+<p><br><br></p>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;">
+<!-- Enlace anterior -->
+<p><a href="./evolucion_generos.html" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> La muerte del pop </a></p>
+<!-- Botón central: play/pause -->
+<p><a href="#" id="play-pause-button" style="color: #C674FF; text-decoration: none;"> <i id="play-icon" class="fa-solid fa-play" style="font-size: 2em;"></i> </a></p>
+<!-- Espacio vacío a la derecha para centrar el botón -->
+<div>
+
+</div>
+</div>
+<!-- Script para cambiar entre play y pause -->
+<script>
+  const playButton = document.getElementById("play-pause-button");
+  const playIcon = document.getElementById("play-icon");
+
+  playButton.addEventListener("click", function (e) {
+    e.preventDefault();  // evita que recargue si es #
+    if (playIcon.classList.contains("fa-play")) {
+      playIcon.classList.remove("fa-play");
+      playIcon.classList.add("fa-pause");
+    } else {
+      playIcon.classList.remove("fa-pause");
+      playIcon.classList.add("fa-play");
+    }
+  });
+</script>
 
 
 

@@ -5,7 +5,7 @@ format: html
 
 ::: {.flourish-embed .flourish-bubble-chart data-src="visualisation/23160271"}
 ```{=html}
-<script src="https://public.flourish.studio/resources/embed.js"</script>
+<script src="https://public.flourish.studio/resources/embed.js"></script>
 ```
 
 <noscript><img src="https://public.flourish.studio/visualisation/23160271/thumbnail" alt="bubble-chart visualization" width="100%"/></noscript>
@@ -15,8 +15,34 @@ Todas estas cuestiones se ilustran con claridad si se observa la imagen anterior
 
 En cambio, las mujeres también usan en ocasiones la música como una herramienta para empoderarse.
 
-------------------------------------------------------------------------
+<br><br>
+
+<br><br>
 
 ::: {style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
-<a href="evolucion_indicadores.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> Evolución temporal </a> <a href="evolucion_generos.qmd" style="color: #C674FF; text-decoration: none;"> La muerte del pop <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
+<!-- Enlace anterior --> <a href="evolucion_indicadores.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> Evolución </a>
+
+<!-- Botón central: play/pause --> <a href="#" id="play-pause-button" style="color: #C674FF; text-decoration: none;"> <i id="play-icon" class="fa-solid fa-play" style="font-size: 2em;"></i> </a>
+
+<!-- Enlace siguiente --> <a href="evolucion_generos.qmd" style="color: #C674FF; text-decoration: none;"> La muerte del pop <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
 :::
+
+<!-- Script para cambiar entre play y pause -->
+
+```{=html}
+<script>
+  const playButton = document.getElementById("play-pause-button");
+  const playIcon = document.getElementById("play-icon");
+
+  playButton.addEventListener("click", function (e) {
+    e.preventDefault();  // evita que recargue si es #
+    if (playIcon.classList.contains("fa-play")) {
+      playIcon.classList.remove("fa-play");
+      playIcon.classList.add("fa-pause");
+    } else {
+      playIcon.classList.remove("fa-pause");
+      playIcon.classList.add("fa-play");
+    }
+  });
+</script>
+```

@@ -1,5 +1,5 @@
 ---
-title: "n,."
+title: "Machismo musical"
 ---
 
 Poner nuestros nombres en algún lado
@@ -44,8 +44,35 @@ Como se muestra el gráfico anterior, de media todas las canciones cuentan con a
 
 Sin embargo, no todas las canciones son igual de machistas, sino que depende de muchos elementos, como el género musical o si está interpretada por un hombre o una mujer.
 
-------------------------------------------------------------------------
+<br><br>
 
-::: {style="display: flex; justify-content: flex-end; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
-<a href="evolucion_indicadores.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> Evolución temporal </a>
-:::
+<!-- index: no hay "anterior", pero sí siguiente -->
+
+<br><br>
+
+:::: {style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
+<div>
+
+</div>
+
+<a href="#" id="play-pause-button" style="color: #C674FF; text-decoration: none;"> <i id="play-icon" class="fa-solid fa-play" style="font-size: 2em;"></i> </a>
+
+<a href="evolucion_indicadores.qmd" style="color: #C674FF; text-decoration: none;"> Evolución temporal <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
+::::
+
+```{=html}
+<script>
+  const playButton = document.getElementById("play-pause-button");
+  const playIcon = document.getElementById("play-icon");
+  playButton.addEventListener("click", function (e) {
+    e.preventDefault();
+    if (playIcon.classList.contains("fa-play")) {
+      playIcon.classList.remove("fa-play");
+      playIcon.classList.add("fa-pause");
+    } else {
+      playIcon.classList.remove("fa-pause");
+      playIcon.classList.add("fa-play");
+    }
+  });
+</script>
+```

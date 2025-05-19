@@ -15,7 +15,7 @@ website:
     contents:
       - section: "Cola de reproducción"
         contents:
-          - title: "El machismo en la música"
+          - title: "Machismo musical"
             href: index.qmd
           - title: "Evolución temporal"
             href: evolucion_indicadores.qmd

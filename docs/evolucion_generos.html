@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n,.</span></a>
+ <span class="menu-text">Machismo musical</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -173,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -194,12 +194,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>asdfasdf asddfasdf</p>
+<div class="column-body">
 <div id="datawrapper-vis-ifxTG" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/ifxTG/embed.js" charset="utf-8" data-target="#datawrapper-vis-ifxTG"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/ifxTG/full.png">
 </noscript>
 </div>
+</div>
+<p>asfdas</p>
+<p>afsdasdf</p>
+<p>asdfasd</p>
+<p>adfasdf</p>
+<p><br><br></p>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;">
+<!-- Enlace anterior -->
+<p><a href="./cantantes.html" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> ¿Quiénes son más machistas? </a></p>
+<!-- Botón central: play/pause -->
+<p><a href="#" id="play-pause-button" style="color: #C674FF; text-decoration: none;"> <i id="play-icon" class="fa-solid fa-play" style="font-size: 2em;"></i> </a></p>
+<!-- Enlace siguiente -->
+<p><a href="./indicadores_generos.html" style="color: #C674FF; text-decoration: none;"> La (mal)influencia del reggaeton <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a></p>
+</div>
+<!-- Script para cambiar entre play y pause -->
+<script>
+  const playButton = document.getElementById("play-pause-button");
+  const playIcon = document.getElementById("play-icon");
+
+  playButton.addEventListener("click", function (e) {
+    e.preventDefault();  // evita que recargue si es #
+    if (playIcon.classList.contains("fa-play")) {
+      playIcon.classList.remove("fa-play");
+      playIcon.classList.add("fa-pause");
+    } else {
+      playIcon.classList.remove("fa-pause");
+      playIcon.classList.add("fa-play");
+    }
+  });
+</script>
 
 
 

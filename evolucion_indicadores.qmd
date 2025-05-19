@@ -11,8 +11,34 @@ asfgsdfg
 
 sgfasgdf
 
-------------------------------------------------------------------------
+<br><br>
+
+<br><br>
 
 ::: {style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
-<a href="index.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> El machismo en la música </a> <a href="cantantes.qmd" style="color: #C674FF; text-decoration: none;"> ¿Quiénes son más machistas? <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
+<!-- Enlace anterior --> <a href="index.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> Machismo musical </a>
+
+<!-- Botón central: play/pause --> <a href="#" id="play-pause-button" style="color: #C674FF; text-decoration: none;"> <i id="play-icon" class="fa-solid fa-play" style="font-size: 2em;"></i> </a>
+
+<!-- Enlace siguiente --> <a href="cantantes.qmd" style="color: #C674FF; text-decoration: none;"> ¿Quiénes son más machistas? <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
 :::
+
+<!-- Script para cambiar entre play y pause -->
+
+```{=html}
+<script>
+  const playButton = document.getElementById("play-pause-button");
+  const playIcon = document.getElementById("play-icon");
+
+  playButton.addEventListener("click", function (e) {
+    e.preventDefault();  // evita que recargue si es #
+    if (playIcon.classList.contains("fa-play")) {
+      playIcon.classList.remove("fa-play");
+      playIcon.classList.add("fa-pause");
+    } else {
+      playIcon.classList.remove("fa-pause");
+      playIcon.classList.add("fa-play");
+    }
+  });
+</script>
+```

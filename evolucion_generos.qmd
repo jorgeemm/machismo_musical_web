@@ -3,6 +3,9 @@ title: "La muerte del pop"
 format: html
 ---
 
+asdfasdf asddfasdf
+
+:::: column-body
 ::: {#datawrapper-vis-ifxTG style="min-height:400px"}
 ```{=html}
 <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ifxTG/embed.js" charset="utf-8" data-target="#datawrapper-vis-ifxTG"></script>
@@ -10,9 +13,42 @@ format: html
 
 <noscript><img src="https://datawrapper.dwcdn.net/ifxTG/full.png"/></noscript>
 :::
+::::
 
-------------------------------------------------------------------------
+asfdas
+
+afsdasdf
+
+asdfasd
+
+adfasdf
+
+<br><br>
 
 ::: {style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
-<a href="cantantes.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> ¿Quiénes son más machistas? </a> <a href="indicadores_generos.qmd" style="color: #C674FF; text-decoration: none;"> La (mal)influencia del reggueton <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
+<!-- Enlace anterior --> <a href="cantantes.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> ¿Quiénes son más machistas? </a>
+
+<!-- Botón central: play/pause --> <a href="#" id="play-pause-button" style="color: #C674FF; text-decoration: none;"> <i id="play-icon" class="fa-solid fa-play" style="font-size: 2em;"></i> </a>
+
+<!-- Enlace siguiente --> <a href="indicadores_generos.qmd" style="color: #C674FF; text-decoration: none;"> La (mal)influencia del reggaeton <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
 :::
+
+<!-- Script para cambiar entre play y pause -->
+
+```{=html}
+<script>
+  const playButton = document.getElementById("play-pause-button");
+  const playIcon = document.getElementById("play-icon");
+
+  playButton.addEventListener("click", function (e) {
+    e.preventDefault();  // evita que recargue si es #
+    if (playIcon.classList.contains("fa-play")) {
+      playIcon.classList.remove("fa-play");
+      playIcon.classList.add("fa-pause");
+    } else {
+      playIcon.classList.remove("fa-pause");
+      playIcon.classList.add("fa-play");
+    }
+  });
+</script>
+```
