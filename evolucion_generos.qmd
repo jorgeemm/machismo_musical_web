@@ -1,0 +1,18 @@
+---
+title: "La muerte del pop"
+format: html
+---
+
+::: {#datawrapper-vis-ifxTG style="min-height:400px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ifxTG/embed.js" charset="utf-8" data-target="#datawrapper-vis-ifxTG"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/ifxTG/full.png"/></noscript>
+:::
+
+------------------------------------------------------------------------
+
+::: {style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
+<a href="cantantes.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> ¿Quiénes son más machistas? </a> <a href="indicadores_generos.qmd" style="color: #C674FF; text-decoration: none;"> La (mal)influencia del reggueton <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
+:::

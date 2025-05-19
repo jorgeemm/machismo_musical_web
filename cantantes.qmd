@@ -1,0 +1,22 @@
+---
+title: "¿Quiénes son más machistas?"
+format: html
+---
+
+::: {.flourish-embed .flourish-bubble-chart data-src="visualisation/23160271"}
+```{=html}
+<script src="https://public.flourish.studio/resources/embed.js"</script>
+```
+
+<noscript><img src="https://public.flourish.studio/visualisation/23160271/thumbnail" alt="bubble-chart visualization" width="100%"/></noscript>
+:::
+
+Todas estas cuestiones se ilustran con claridad si se observa la imagen anterior. (interpretar el gráfico)(Terminar el párrafo hablando de que las mujeres más famosas apenas se acercan a los cantantes masculinos en cuanto a  la presencia de indicadores machistas)
+
+En cambio, las mujeres también usan en ocasiones la música como una herramienta para empoderarse.
+
+------------------------------------------------------------------------
+
+::: {style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
+<a href="evolucion_indicadores.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> Evolución temporal </a> <a href="evolucion_generos.qmd" style="color: #C674FF; text-decoration: none;"> La muerte del pop <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
+:::

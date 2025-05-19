@@ -1,0 +1,18 @@
+---
+title: "Evolución"
+format: html
+---
+
+**GRAFICO EVOLUCIÓN LAURA**
+
+jkhbljh
+
+asfgsdfg
+
+sgfasgdf
+
+------------------------------------------------------------------------
+
+::: {style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
+<a href="index.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> El machismo en la música </a> <a href="cantantes.qmd" style="color: #C674FF; text-decoration: none;"> ¿Quiénes son más machistas? <i class="fa-solid fa-forward-step" style="margin-left: 8px;"></i> </a>
+:::

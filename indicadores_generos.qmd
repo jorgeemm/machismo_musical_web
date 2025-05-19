@@ -1,0 +1,14 @@
+---
+title: "La (mal)influencia del reggueton"
+format: html
+---
+
+**TOCADISCOS KEKO**
+
+**METODOLOGÍA**
+
+------------------------------------------------------------------------
+
+::: {style="display: flex; justify-content: flex-start; align-items: center; margin-top: 3rem; font-size: 1.1em;"}
+<a href="evolucion_generos.qmd" style="color: #C674FF; text-decoration: none;"> <i class="fa-solid fa-backward-step" style="margin-right: 8px;"></i> La muerte del pop </a>
+:::
